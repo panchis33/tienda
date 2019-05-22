@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
   import {MegaMenuModule} from 'primeng/megamenu';
+  import {ProgressSpinnerModule} from 'primeng/progressspinner';
 
 import { NgModule } from '@angular/core';
 
@@ -16,7 +17,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MegaMenuModule
+    MegaMenuModule,
+    ProgressSpinnerModule
 
   ],
   providers: [],

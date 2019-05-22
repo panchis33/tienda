@@ -7,9 +7,10 @@ import { MenuItem, SelectItem } from 'primeng/primeng';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+    logo = require("./logo.jpg");
     items: MenuItem[];
 
-  title = 'tienda Bon Belle';
+  title = 'cabina -Seguros G&T';
   ngOnInit() {
     this.items = [
         {
